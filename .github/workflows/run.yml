@@ -1,14 +1,6 @@
 name: pikpak_auto_invite
 on:
   workflow_dispatch:
-  push:
-    branches: [ main ]
-    paths:
-      - '**'
-      - '!.gitignore'
-      - '!README.md'
-  schedule:
-    # 每天晚六点十分执行一次
     
 
 jobs:
